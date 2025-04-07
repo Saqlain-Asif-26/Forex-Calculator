@@ -3,8 +3,10 @@ import ForexProfitCalculator from "./components/ForexProfitCalculator";
 
 function App() {
   return (
-    <div className="h-screen w-screen overflow-x-hidden bg-zinc-900 flex items-center py-4">
-      <ForexProfitCalculator className='px-12 mx-4' />
+    <div className="min-h-screen w-full flex items-center justify-center bg-zinc-900 overflow-x-hidden">
+      <div className="p-2">
+        <ForexProfitCalculator className='' />
+      </div>
     </div>
   );
 }
